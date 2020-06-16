@@ -1,0 +1,59 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "defaultTitle",
+    "description" : "defaultDescription",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:8081"
+  } ],
+  "paths" : {
+    "/calculator/sum" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "parameters" : [ {
+          "name" : "a",
+          "in" : "query",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "2"
+        }, {
+          "name" : "b",
+          "in" : "query",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "3"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json;charset=UTF-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:8081"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:8081"
+      } ]
+    }
+  },
+  "components" : { }
+}
