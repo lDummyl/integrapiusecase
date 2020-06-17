@@ -6,7 +6,7 @@ open class CalcImpl(
     private val responseMapper: com.betoola.integrapiproxy.service.ResponseMapper<Int>,
     private val client: com.betoola.integrapiproxy.web.input.SoapClient
 
-) : com.betoola.integrapi.api.DefaultApi {
+) : com.betoola.integrapi.api.DefaultApiController() {
 
   
 
