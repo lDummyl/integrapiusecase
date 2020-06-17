@@ -1,6 +1,5 @@
 package com.betoola.integrapiproxy.web.output
 
-import controller.ControllerParent
 import controller.CustomResultHandler
 import org.junit.Test
 import org.springframework.http.MediaType
