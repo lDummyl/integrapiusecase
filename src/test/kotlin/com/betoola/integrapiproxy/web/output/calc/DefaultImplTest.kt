@@ -1,7 +1,7 @@
 package com.betoola.integrapiproxy.web.output.calc
-
-import controller.ControllerParent
-import controller.CustomResultHandler
+        
+import restparents.ControllerParent
+import restparents.CustomResultHandler
 import org.junit.Test
 import org.springframework.http.MediaType
 import org.springframework.restdocs.mockmvc.MockMvcRestDocumentation

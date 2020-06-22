@@ -1,4 +1,5 @@
-package controller
+package restparents
+
 
 import org.junit.Before
 import org.junit.Rule
@@ -13,8 +14,10 @@ import org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.documentati
 import org.springframework.restdocs.operation.preprocess.Preprocessors.prettyPrint
 import org.springframework.test.context.junit4.SpringRunner
 import org.springframework.test.web.servlet.MockMvc
+import org.springframework.test.web.servlet.setup.ConfigurableMockMvcBuilder
 import org.springframework.test.web.servlet.setup.DefaultMockMvcBuilder
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
+import org.springframework.util.Assert
 import org.springframework.web.context.WebApplicationContext
 import java.io.IOException
 import javax.servlet.Filter
