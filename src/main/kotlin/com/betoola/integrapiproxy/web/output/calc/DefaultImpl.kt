@@ -1,7 +1,7 @@
-package com.betoola.integrapiproxy.web.output
+package com.betoola.integrapiproxy.web.output.calc
 
 @org.springframework.web.bind.annotation.RestController
-open class CalcImpl(
+open class DefaultImpl(
     private val requestMapper: com.betoola.integrapiproxy.service.RequestMapper,
     private val responseMapper: com.betoola.integrapiproxy.service.ResponseMapper<Int>,
     private val client: com.betoola.integrapiproxy.web.input.SoapClient

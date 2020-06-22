@@ -1,5 +1,6 @@
-package com.betoola.integrapiproxy.web.output
+package com.betoola.integrapiproxy.web.output.calc
 
+import controller.ControllerParent
 import controller.CustomResultHandler
 import org.junit.Test
 import org.springframework.http.MediaType
@@ -9,7 +10,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers.content
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
 
 
-class RestControllerTest : ControllerParent() {
+class DefaultImplTest : ControllerParent() {
 
    
     @Test
