@@ -14,9 +14,9 @@ class SoapClient {
         val a = soapRequest.params["a"] ?: 0
         val b = soapRequest.params["b"] ?: 0
 
-        val addResult = port.add(a, b)
+        val result = port.add(a, b)
         val soapResponse = SoapResponse()
-        soapResponse.bodyPayload = addResult
+        soapResponse.bodyPayload = result
         return soapResponse
     }
 }
